@@ -1,0 +1,91 @@
+.v-input__slot > label {
+  margin-bottom: 0;
+  margin-left: 10px;
+}
+
+// .v-text-field .v-label--active {
+//   top: 2px;
+// }
+
+.v-file-input .v-file-input__text {
+    margin-left: 19px;
+}
+
+.v-input--selection-controls {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.v-input__slot {
+  margin-bottom: 0;
+}
+
+.theme--light.v-stepper {
+    background: transparent;
+    box-shadow: none;
+}
+
+.v-stepper__wrapper {
+    padding: 0 40px;
+    margin-left: -25px;
+}
+
+.v-sheet.v-card:not(.v-sheet--outlined) {
+    box-shadow: 0 0.46875rem 2.1875rem rgba(4,9,20,0.03), 0 0.9375rem 1.40625rem rgba(4,9,20,0.03), 0 0.25rem 0.53125rem rgba(4,9,20,0.05), 0 0.125rem 0.1875rem rgba(4,9,20,0.03);
+    border: 1px solid #eaeaea;
+}
+
+.theme--light.v-tabs-items {
+    background-color: transparent;
+    padding: 60px;
+}
+
+.theme--light.v-tabs > .v-tabs-bar {
+    background-color: #FFFFFF;
+    border-radius: 0;
+}
+
+a.v-tab.v-tab--active {
+    box-shadow: 0px 0px 5px #00000040;
+}
+
+.theme--dark.v-tabs > .v-tabs-bar {
+    // background-color: transparent;
+    // color: #fff !important;
+    top: 8px;
+    text-transform: none !important;
+}
+
+.v-input__slider v-input--range-slider {
+  margin-bottom: 35px;
+}
+
+.v-input__append-outer,
+.v-input__prepend-outer {
+  position: absolute;
+  margin-top: 52px;
+
+  .v-text-field > .v-input__control > .v-input__slot:before {
+    border: none;
+  }
+}
+
+.v-input__append-outer {
+  right: 0;
+}
+
+.v-application--is-ltr .v-text-field .v-counter {
+  margin-top: 9px;
+}
+
+.v-messages {
+  margin-top: 7px;
+}
+
+.v-date-picker-table .v-btn {
+  color: #000 !important;
+}
+
+.v-stepper--vertical .v-stepper__content {
+    padding: 30px 60px 30px 35px;
+}

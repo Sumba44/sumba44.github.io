@@ -1,0 +1,100 @@
+// @font-face {
+//   font-family: Trump;
+//   src: url("~assets/fonts/TrumpGothicEast_bold.woff2");
+// }
+
+body {
+  // background: #000;
+  background: $background;
+  color: #1d1f22;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+}
+
+.theme--light.v-application {
+  background: $background;
+  background-image: linear-gradient(0deg, rgb(95 95 95 / 21%), #f1f4f6);
+  // background-image: url('https://www.axon-neuroscience.eu/img/bg-1.jpg');
+  color: rgba(0, 0, 0, 0.87);
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji" !important;
+}
+
+p {
+  color: #737680;
+  font-weight: 400;
+}
+
+a {
+  color: #007bfc;
+
+  &:hover {
+    color: $theme;
+    text-decoration: none;
+  }
+}
+
+section {
+  margin: 40px 0;
+  display: block;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-family: $heading;
+}
+
+h2 {
+  font-weight: 700;
+  letter-spacing: -1px;
+  font-family: $heading;
+}
+
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+  letter-spacing: -1px;
+}
+
+h5,
+h6 {
+  font-size: 18px;
+}
+
+h6 {
+  color: #737680;
+  text-transform: uppercase;
+  font-family: $heading;
+}
+
+.section__title {
+  text-align: center;
+  margin-top: -8px;
+  margin-bottom: 72px;
+  font-weight: 700;
+  line-height: 52px;
+  margin: 0 0 40px;
+  font-size: 41px;
+  text-transform: none;
+  font-weight: 300;
+  color: #0b1333eb;
+  text-shadow: none;
+}
+
+.section__desc {
+  margin: -48px auto 72px;
+  text-align: center;
+  font-size: 21px;
+  font-weight: 300;
+  line-height: 40px;
+}
+
+.section__row {
+  flex-direction: column;
+}
+
+section {
+  margin-top: 150px;
+}
